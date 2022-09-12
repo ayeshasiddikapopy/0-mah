@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>0 mah</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="js/tailwind.config.js"></script>
+</head>
+<body>
+    <!-- =========navbar start========= -->
+    <header class="md:py-[50px] absolute w-[100%] px-[10px]">
+        <div class="nav max-w-container mx-auto flex justify-between">
+            <div class="logo w-1/2">
+                <picture>
+                    <img src="images/logo.webp" alt="logo">
+                </picture>
+            </div>
+            <button class="md:hidden pr-[10px]"><i class="fa-solid fa-bars-staggered"></i></button>
+            <div class="menu w-1/2 hidden md:block">
+                <ul class="flex justify-between">
+                    <li><a href="#" class="inline-block text-black text-base font-light hover:font-semibold duration-100 before:absolute before:content-[''] before:bottom-[-5px] before:left-[10px] before:w-[20px] before:h-[2px] before:bg-secondary before:opacity-0 relative hover:before:opacity-100 ">Home</a></li>
+                    <li><a href="#" class="inline-block text-black text-base font-light hover:font-semibold duration-100 before:absolute before:content-[''] before:bottom-[-5px] before:left-[10px] before:w-[20px] before:h-[2px] before:bg-secondary before:opacity-0 relative hover:before:opacity-100 ">About</a></li>
+                    <li><a href="#" class="inline-block text-black text-base font-light hover:font-semibold duration-100 before:absolute before:content-[''] before:bottom-[-5px] before:left-[10px] before:w-[20px] before:h-[2px] before:bg-secondary before:opacity-0 relative hover:before:opacity-100 ">Properties <i class="fa-solid fa-angle-down text-black text-base pl-[10px]"></i></a></li>
+                    <li><a href="#" class="inline-block text-black text-base font-light hover:font-semibold duration-100 before:absolute before:content-[''] before:bottom-[-5px] before:left-[10px] before:w-[20px] before:h-[2px] before:bg-secondary before:opacity-0 relative hover:before:opacity-100 ">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- =========navbar end=========== -->
+    <!-- =========banner start========= -->
+    <div class="banner bg-primary">
+        <div class="max-w-container mx-auto flex md:pt-[192px] pb-[28px] pt-[100px]">
+            <div class="banner__content md:w-[70%]  w-[100%] text-center md:text-left">
+                <h1 class="text-3xl md:text-[56px] text-black md:leading-[84px] font-semibold font-poppins">Temukan Hunian Keluarga Sesuai Keinginanmu</h1>
+                <p class="text-base text-black opacity-[55%] leading-[30px] font-light font-poppins pt-[24px] md:max-w-[70%]">Menyediakan hunian bagi keluarga anda dengan varian pilihan dan lokasi yang strategis di kota anda dengan cara yang lebih mudah.</p>
+                <form class="py-[56px] hidden md:block"> 
+                    <input class="py-[23px] pl-[30px] md:pr-[268px] bg-white text-base font-light font-poppins rounded-[10px]" type="text" placeholder="Search location, properties, residental group"> 
+                    <i class="fa-solid fa-location-dot md:top-0 md:left-0 md:translate-x-[-600px]"></i>
+                    <button class="text-base text-white font-semibold font-poppins bg-black py-[13px] px-[41px] rounded-[10px] ml-[-20%]">Search</button>
+                </form>
+                <form class="md:hidden">
+                    <input type="text" placeholder="search" class="md:hidden py-[23px] pl-[30px] rounded-[10px] my-[20px]">
+                    <button class="text-base text-white font-semibold font-poppins bg-black py-[13px] px-[41px] rounded-[10px] mb-[20px]">Search</button>
+                </form>       
+                <div class="counter flex flex-wrap justify-center">
+                    <div class="counter__content md:w-[30%] pb-[20px]">
+                        <h2 class="text-3xl md:text-[56px] text-black md:leading-[84px] font-semibold font-poppins">200 <i class="fa-sharp fa-solid fa-plus text-secondary"></i></h2>
+                        <p class="text-base text-black opacity-[55%] leading-[30px] font-light font-poppins md:w-[70%]">Residental grup telah bergabung</p>
+                    </div>
+                    <div class="counter__content md:w-[30%] pb-[20px]">
+                        <h2 class="text-3xl md:text-[56px] text-black md:leading-[84px] font-semibold font-poppins">10 <i class="fa-sharp fa-solid fa-plus text-secondary"></i></h2>
+                        <p class="text-base text-black opacity-[55%] leading-[30px] font-light font-poppins md:w-[70%]">Sudah berpengalaman </p>
+                    </div>
+                    <div class="counter__content md:w-[30%] pb-[20px]">
+                        <h2 class="text-3xl md:text-[56px] text-black md:leading-[84px] font-semibold font-poppins">999 <i class="fa-sharp fa-solid fa-plus text-secondary"></i></h2>
+                        <p class="text-base text-black opacity-[55%] leading-[30px] font-light font-poppins md:w-[70%]">Properti tersedia di berbagai Kota</p>
+                    </div>
+                </div>
+            </div>
+            <div class="banner__img w-[30%] md:block hidden">
+                <picture>
+                    <img src="images/banner-1.webp" alt="banner">
+                </picture>
+            </div>
+        </div>
+    </div>
+    <!-- =========banner end=========== -->
+    <!-- =========propertis start========= -->
+    <div class="properties">
+        <div class="max-w-container mx-auto md:py-[100px] py-[20px] px-[10px]">
+            <h2 class="text-[20px] md:text-4xl md:leading-[54px] text-black font-semibold font-poppins md:w-[50%]">Tahapan Pembelian Properti yang Mudah dan Cepat</h2>
+           <div class="flex justify-between md:pt-[64px] flex-wrap">
+            <div class="properti__content w-full md:w-[30%] md:px-[35px] py-[20px] border-2 border-transparent hover:border-3 hover:border-primary duration-[0.4s] mb-[10px]">
+                <div class="flex justify-between">
+                    <p class="text-base text-black font-medium font-poppins relative after:absolute after:top-0 after:left-[-35.3px] after:w-[5px] after:h-[100%] after:bg-secondary">Pilih Properti</p>
+                    <p class="text-base text-secondary font-medium font-poppins ">01</p>
+                </div>
+                <p class="text-base text-black opacity-[55%] leading-[30px] font-light font-poppins pt-[8px] pb-[48px]">Cari properti yang diinginkan sesuai dengan kriteria anda dan keluarga. Cara memilih properti yang bijak dapat anda baca lebih lanjut di sini</p>
+                <a href="#" class="text-base font-medium font-poppins text-black py-[10px] relative after:absolute after:top-0 after:left-[-10px] after:w-[40%] after:h-[100%] after:bg-primary after:z-[-1]">Baca lebih Lanjut<i class="fa-solid fa-arrow-right text-black pl-[8px]"></i></a>
+            </div>
+            <div class="properti__content w-full md:w-[30%] md:px-[35px] py-[20px] border-2 border-transparent hover:border-3 hover:border-primary duration-[0.4s] mb-[10px]">
+                <div class="flex justify-between">
+                    <p class="text-base text-black font-medium font-poppins relative after:absolute after:top-0 after:left-[-35.3px] after:w-[5px] after:h-[100%] after:bg-secondary">Pilih Properti</p>
+                    <p class="text-base text-secondary font-medium font-poppins ">01</p>
+                </div>
+                <p class="text-base text-black opacity-[55%] leading-[30px] font-light font-poppins pt-[8px] pb-[48px]">Cari properti yang diinginkan sesuai dengan kriteria anda dan keluarga. Cara memilih properti yang bijak dapat anda baca lebih lanjut di sini</p>
+                <a href="#" class="text-base font-medium font-poppins text-black py-[10px] relative after:absolute after:top-0 after:left-[-10px] after:w-[40%] after:h-[100%] after:bg-primary after:z-[-1]">Baca lebih Lanjut<i class="fa-solid fa-arrow-right text-black pl-[8px]"></i></a>
+            </div>
+            <div class="properti__content w-full md:w-[30%] md:px-[35px] py-[20px] border-2 border-transparent hover:border-3 hover:border-primary duration-[0.4s] mb-[10px]">
+                <div class="flex justify-between">
+                    <p class="text-base text-black font-medium font-poppins relative after:absolute after:top-0 after:left-[-35.3px] after:w-[5px] after:h-[100%] after:bg-secondary">Pilih Properti</p>
+                    <p class="text-base text-secondary font-medium font-poppins ">01</p>
+                </div>
+                <p class="text-base text-black opacity-[55%] leading-[30px] font-light font-poppins pt-[8px] pb-[48px]">Cari properti yang diinginkan sesuai dengan kriteria anda dan keluarga. Cara memilih properti yang bijak dapat anda baca lebih lanjut di sini</p>
+                <a href="#" class="text-base font-medium font-poppins text-black py-[10px] relative after:absolute after:top-0 after:left-[-10px] after:w-[40%] after:h-[100%] after:bg-primary after:z-[-1]">Baca lebih Lanjut<i class="fa-solid fa-arrow-right text-black pl-[8px]"></i></a>
+            </div>
+           </div>
+        </div>
+    </div>
+    <!-- =========propertis end=========== -->
+    <!-- =========residence start========= -->
+    <div class="residence bg-primary md:py-[68px] py-[20px] px-[10px]">
+        <div class="max-w-container mx-auto">
+            <div class="residence__head md:pb-[64px] py-[20px]">
+                <p class="text-base font-medium font-medium text-secondary">Pilihan konsumen</p>
+                <h2 class="text-4xl font-semibold font-poppins text-black pt-[10px]">Residen Favorit</h2>
+            </div>
+            <div class="residence__content md:flex md:pb-[164px] md:justify-between text-center">
+                <div class="residence__img md:w-[50%] w-full relative">
+                    <picture>
+                        <img src="images/residen1.webp" alt="residence">
+                    </picture>
+                    <picture class="absolute md:top-[20%] top-[15%] left-[10%]">
+                        <img src="images/residen2.webp" alt="residence">
+                    </picture>
+                </div>
+                <div class="residence__items md:w-[50%] w-full">
+                    <h2 class="text-[20px] md:text-4xl font-semibold md:leading-[54px] font-poppins text-black py-[10px]">Bangunan yang dirancang oleh Aristektur Handal</h2>
+                    <p class="text-base text-black font-light font-poppins leading-[30px] md:pt-[24px] md:pb-[48px]">Tanpa diragukan, properti yang disediakan dalam webiste kami merupakan hasil kerjasama secara profesional dengan para Arsitektur ternama dan Developer yang terpercaya.</p>
+                    <div class="flex md:justify-between justify-center">
+                        <a href="#" class="text-base text-black font-light font-poppins border-2 border-black rounded-[10px] md:py-[13px] md:pl-[67px] md:pr-[31px] hover:bg-black hover:text-white duration-[0.4s] hidden md:block">
+                            <i class="fa-solid fa-phone pr-[10px]"></i> Hubungi Kami</a>
+                        <a href="#" class="text-base text-black border-2 border-black font-light font-poppins py-[13px] px-[41px] hover:text-white hover:bg-black rounded-[10px] duration-[0.4s]">Explore lebih banyak</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- =========residence end=========== -->
+    <!-- =========blog start========= -->
+    <div class="blog">
+       <div class="max-w-container mx-auto md:py-[64px] px-[10px] py-[20px]">
+        <div class="flex justify-between md:pb-[64px] pb-[20px] items-center">
+            <div class="blog__head">
+                <p class="text-base font-medium font-medium text-secondary">Pilihan konsumen</p>
+                <h2 class="text-[20px] md:text-4xl font-semibold font-poppins text-black pt-[10px]">Residen Favorit</h2>
+            </div>
+            <div class="blog__icon">
+                <i class="fa-solid fa-chevron-left mr-[10px] text-[24px] w-[40px] h-[40px] text-center  border-2 border-primary text-secondary leading-[40px] hover:bg-primary"></i>
+                <i class="fa-solid fa-chevron-right text-[24px] w-[40px] h-[40px] text-center  border-2 border-primary text-secondary leading-[40px] hover:bg-primary"></i>
+            </div>
+        </div>
+        <div class="flex justify-between flex-wrap">
+            <div class="blog__item md:w-[30%] w-full py-[10px]">
+                <picture class="rounded-[10px]">
+                    <img class="" src="images/blog3-1.webp" alt="blog">
+                </picture>
+                <h2 class="text-[24px] text-black font-medium font-poppins py-[16px]">Magnolia Surabaya</h2>
+                <p class="text-base text-black font-light font-poppins">Jl. Gatot Subroto No.KM.6,8, RT.001/RW.008, Jatake, Kec. Jatiuwung, Kota Tangerang, Banten 15136</p>
+            </div>
+            <div class="blog__item md:w-[30%] w-full py-[10px]">
+                <picture class="rounded-[10px]">
+                    <img class="" src="images/blog2-1.webp" alt="blog">
+                </picture>
+                <h2 class="text-[24px] text-black font-medium font-poppins py-[16px]">Magnolia Surabaya</h2>
+                <p class="text-base text-black font-light font-poppins">Jl. Gatot Subroto No.KM.6,8, RT.001/RW.008, Jatake, Kec. Jatiuwung, Kota Tangerang, Banten 15136</p>
+            </div>
+            <div class="blog__item md:w-[30%] w-full py-[10px]">
+                <picture class="rounded-[10px]">
+                    <img class="" src="images/blog1-1.webp" alt="blog">
+                </picture>
+                <h2 class="text-[24px] text-black font-medium font-poppins py-[16px]">Magnolia Surabaya</h2>
+                <p class="text-base text-black font-light font-poppins">Jl. Gatot Subroto No.KM.6,8, RT.001/RW.008, Jatake, Kec. Jatiuwung, Kota Tangerang, Banten 15136</p>
+            </div>
+        </div>
+       </div>
+    </div>
+    <!-- =========blog end=========== -->
+    <!-- =========contact start========= -->
+    <div class="contact bg-primary md:py-[48px] px-[10px]">
+        <div class="max-w-container mx-auto">
+            <div class="flex justify-between flex-wrap">
+                <div class="forms md:w-[50%] w-full">
+                    <h2 class="md:text-4xl text-[20px] text-black leading-[54px] font-semibold font-poppins md:pb-[63px]">Hubungi Kami</h2>
+                   <div class="flex md:justify-between flex-wrap justify-center">
+                    <div class="border-2 border-secondary md:w-[45%] p-[24px] rounded-[10px] md:my-0 my-[10px]">
+                        <div class="flex items-center pb-[24px]">
+                            <i class="fa-solid fa-phone text-[48px] mr-[16px]"></i>
+                            <div class="text">
+                                <p class="text-base text-black font-regular font-poppins py-[4px]">Call</p>
+                                <p class="text-base text-black font-regular font-poppins py-[4px]">+6281232936733</p>
+                            </div>
+                        </div>
+                        <a class="inline-block text-base text-secondary font-semibold font-poppins px-[61px] py-[13px] bg-overlay rounded-[10px] hover:bg-secondary hover:text-white duration-[.4s]">Call Now</a>
+                       </div>
+                       <div class="border-2 border-secondary md:w-[50%] md:p-[24px] p-[10px] rounded-[10px] md:my-0 my-[10px]">
+                        <div class="flex items-center pb-[24px]">
+                            <i class="fa-solid fa-envelope text-[48px] mr-[16px]"></i>
+                            <div class="text">
+                                <p class="text-base text-black font-regular font-poppins py-[4px]">email</p>
+                                <p class="text-base text-black font-regular font-poppins py-[4px]">omahindev@gmail.com</p>
+                            </div>
+                        </div>
+                        <a class="inline-block text-base text-secondary font-semibold font-poppins px-[61px] py-[13px] bg-overlay rounded-[10px] hover:bg-secondary hover:text-white duration-[.4s]">Email Now</a>
+                       </div>
+                   </div>
+                </div>
+                <div class="logo md:w-[30%] w-full">
+                    <h2 class="md:text-4xl text-[20px] text-black leading-[54px] font-semibold font-poppins md:pb-[63px] text-center">Penghargaan</h2>
+                    <div class="flex justify-between">
+                        <picture class="p-[20px]">
+                            <img src="images/footer1.webp" alt="footer">
+                        </picture>
+                        <picture class="pl-[10px]">
+                            <img src="images/footer2.webp" alt="footer">
+                        </picture>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- =========contact end=========== -->
+    <!-- =========footer start========= -->
+    <div class="footer bg-black py-[36px]">
+        <div class="max-w-container mx-auto">
+            <div class="md:flex md:justify-between ">
+                <div class="footer__item flex justify-center md:block">
+                    <picture>
+                        <img src="images/footerlogo.webp" alt="footer logo">
+                    </picture>
+                </div>
+                <div class="footer__icon text-white text-center py-[20px]">
+                    <i class="fa-brands fa-instagram md:pr-[64px] px-[20px]"></i>
+                    <i class="fa-brands fa-facebook-f md:pr-[64px] px-[20px]"></i>
+                    <i class="fa-brands fa-twitter md:pr-[64px] px-[20px]"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- =========footer end=========== -->
+</body>
+</html>
